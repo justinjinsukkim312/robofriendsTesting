@@ -5,14 +5,14 @@
 	"homepage": "https://jinsuk312.github.io/robofriendsTesting",
 	"dependencies": {
 		"gh-pages": "^2.1.1",
-		"react": "^16.2.0",
-		"react-dom": "^16.2.0",
-		"react-redux": "^5.0.7",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-redux": "^5.1.1",
 		"react-scripts": "^3.1.1",
 		"redux": "^3.7.2",
 		"redux-logger": "^3.0.6",
-		"redux-thunk": "^2.2.0",
-		"tachyons": "^4.9.0"
+		"redux-thunk": "^2.3.0",
+		"tachyons": "^4.11.1"
 	},
 	"scripts": {
 		"predeploy": "npm run build",
@@ -36,7 +36,10 @@
 	},
 	"description": "Udemy tutorial - adding PWA capabilities to a react app",
 	"main": "index.js",
-	"devDependencies": {},
+	"devDependencies": {
+		"enzyme": "^3.10.0",
+		"enzyme-adapter-react-16": "^1.14.0"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Jinsuk312/robofriendsTesting.git"
