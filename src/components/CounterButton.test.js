@@ -16,4 +16,9 @@ it('correctly increments the counter', () => {
 
 	wrapper.find('[id="counter"]').simulate('click');
 	expect(wrapper.state()).toEqual({ count: 2 });
+	wrapper.find('[id="counter"]').simulate('click');
+	expect(wrapper.state()).toEqual({ count: 3 });
+	wrapper.find('[id="counter"]').simulate('click');
+	expect(wrapper.state()).toEqual({ count: 4 });
+	expect(wrapper.props().color).toEqual('red');
 });
